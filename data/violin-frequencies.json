@@ -1,0 +1,701 @@
+{
+  "meta": {
+    "generator": "scripts/generate.py",
+    "formula": "f = A4 * 2^(n/12); pure fifths = A4 * (2/3)^k",
+    "decimals": 2,
+    "reference_pitches_hz": [
+      415,
+      440,
+      441,
+      442
+    ],
+    "license": "MIT",
+    "source": "https://violin-tuner.com/"
+  },
+  "standard_gdae": {
+    "415": [
+      {
+        "string": "IV",
+        "note": "G3",
+        "semitones_from_a4": -14,
+        "equal_hz": 184.86,
+        "pure_fifths_hz": 184.44,
+        "pure_vs_equal_cents": -3.91,
+        "cents_vs_a440": -101.27
+      },
+      {
+        "string": "III",
+        "note": "D4",
+        "semitones_from_a4": -7,
+        "equal_hz": 276.98,
+        "pure_fifths_hz": 276.67,
+        "pure_vs_equal_cents": -1.96,
+        "cents_vs_a440": -101.27
+      },
+      {
+        "string": "II",
+        "note": "A4",
+        "semitones_from_a4": 0,
+        "equal_hz": 415.0,
+        "pure_fifths_hz": 415,
+        "pure_vs_equal_cents": 0.0,
+        "cents_vs_a440": -101.27
+      },
+      {
+        "string": "I",
+        "note": "E5",
+        "semitones_from_a4": 7,
+        "equal_hz": 621.8,
+        "pure_fifths_hz": 622.5,
+        "pure_vs_equal_cents": 1.96,
+        "cents_vs_a440": -101.27
+      }
+    ],
+    "440": [
+      {
+        "string": "IV",
+        "note": "G3",
+        "semitones_from_a4": -14,
+        "equal_hz": 196.0,
+        "pure_fifths_hz": 195.56,
+        "pure_vs_equal_cents": -3.91,
+        "cents_vs_a440": 0.0
+      },
+      {
+        "string": "III",
+        "note": "D4",
+        "semitones_from_a4": -7,
+        "equal_hz": 293.66,
+        "pure_fifths_hz": 293.33,
+        "pure_vs_equal_cents": -1.96,
+        "cents_vs_a440": 0.0
+      },
+      {
+        "string": "II",
+        "note": "A4",
+        "semitones_from_a4": 0,
+        "equal_hz": 440.0,
+        "pure_fifths_hz": 440,
+        "pure_vs_equal_cents": 0.0,
+        "cents_vs_a440": 0.0
+      },
+      {
+        "string": "I",
+        "note": "E5",
+        "semitones_from_a4": 7,
+        "equal_hz": 659.26,
+        "pure_fifths_hz": 660.0,
+        "pure_vs_equal_cents": 1.96,
+        "cents_vs_a440": 0.0
+      }
+    ],
+    "441": [
+      {
+        "string": "IV",
+        "note": "G3",
+        "semitones_from_a4": -14,
+        "equal_hz": 196.44,
+        "pure_fifths_hz": 196.0,
+        "pure_vs_equal_cents": -3.91,
+        "cents_vs_a440": 3.93
+      },
+      {
+        "string": "III",
+        "note": "D4",
+        "semitones_from_a4": -7,
+        "equal_hz": 294.33,
+        "pure_fifths_hz": 294.0,
+        "pure_vs_equal_cents": -1.96,
+        "cents_vs_a440": 3.93
+      },
+      {
+        "string": "II",
+        "note": "A4",
+        "semitones_from_a4": 0,
+        "equal_hz": 441.0,
+        "pure_fifths_hz": 441,
+        "pure_vs_equal_cents": 0.0,
+        "cents_vs_a440": 3.93
+      },
+      {
+        "string": "I",
+        "note": "E5",
+        "semitones_from_a4": 7,
+        "equal_hz": 660.75,
+        "pure_fifths_hz": 661.5,
+        "pure_vs_equal_cents": 1.96,
+        "cents_vs_a440": 3.93
+      }
+    ],
+    "442": [
+      {
+        "string": "IV",
+        "note": "G3",
+        "semitones_from_a4": -14,
+        "equal_hz": 196.89,
+        "pure_fifths_hz": 196.44,
+        "pure_vs_equal_cents": -3.91,
+        "cents_vs_a440": 7.85
+      },
+      {
+        "string": "III",
+        "note": "D4",
+        "semitones_from_a4": -7,
+        "equal_hz": 295.0,
+        "pure_fifths_hz": 294.67,
+        "pure_vs_equal_cents": -1.96,
+        "cents_vs_a440": 7.85
+      },
+      {
+        "string": "II",
+        "note": "A4",
+        "semitones_from_a4": 0,
+        "equal_hz": 442.0,
+        "pure_fifths_hz": 442,
+        "pure_vs_equal_cents": 0.0,
+        "cents_vs_a440": 7.85
+      },
+      {
+        "string": "I",
+        "note": "E5",
+        "semitones_from_a4": 7,
+        "equal_hz": 662.25,
+        "pure_fifths_hz": 663.0,
+        "pure_vs_equal_cents": 1.96,
+        "cents_vs_a440": 7.85
+      }
+    ]
+  },
+  "cross_tunings": {
+    "AEAE": {
+      "415": [
+        {
+          "string": "IV",
+          "note": "A3",
+          "equal_hz": 207.5,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "III",
+          "note": "E4",
+          "equal_hz": 310.9,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 415.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "E5",
+          "equal_hz": 621.8,
+          "change_from_gdae_semitones": 0
+        }
+      ],
+      "440": [
+        {
+          "string": "IV",
+          "note": "A3",
+          "equal_hz": 220.0,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "III",
+          "note": "E4",
+          "equal_hz": 329.63,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 440.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "E5",
+          "equal_hz": 659.26,
+          "change_from_gdae_semitones": 0
+        }
+      ],
+      "441": [
+        {
+          "string": "IV",
+          "note": "A3",
+          "equal_hz": 220.5,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "III",
+          "note": "E4",
+          "equal_hz": 330.38,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 441.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "E5",
+          "equal_hz": 660.75,
+          "change_from_gdae_semitones": 0
+        }
+      ],
+      "442": [
+        {
+          "string": "IV",
+          "note": "A3",
+          "equal_hz": 221.0,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "III",
+          "note": "E4",
+          "equal_hz": 331.13,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 442.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "E5",
+          "equal_hz": 662.25,
+          "change_from_gdae_semitones": 0
+        }
+      ]
+    },
+    "GDGD": {
+      "415": [
+        {
+          "string": "IV",
+          "note": "G3",
+          "equal_hz": 184.86,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 276.98,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "G4",
+          "equal_hz": 369.72,
+          "change_from_gdae_semitones": -2
+        },
+        {
+          "string": "I",
+          "note": "D5",
+          "equal_hz": 553.96,
+          "change_from_gdae_semitones": -2
+        }
+      ],
+      "440": [
+        {
+          "string": "IV",
+          "note": "G3",
+          "equal_hz": 196.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 293.66,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "G4",
+          "equal_hz": 392.0,
+          "change_from_gdae_semitones": -2
+        },
+        {
+          "string": "I",
+          "note": "D5",
+          "equal_hz": 587.33,
+          "change_from_gdae_semitones": -2
+        }
+      ],
+      "441": [
+        {
+          "string": "IV",
+          "note": "G3",
+          "equal_hz": 196.44,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 294.33,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "G4",
+          "equal_hz": 392.89,
+          "change_from_gdae_semitones": -2
+        },
+        {
+          "string": "I",
+          "note": "D5",
+          "equal_hz": 588.66,
+          "change_from_gdae_semitones": -2
+        }
+      ],
+      "442": [
+        {
+          "string": "IV",
+          "note": "G3",
+          "equal_hz": 196.89,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 295.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "G4",
+          "equal_hz": 393.78,
+          "change_from_gdae_semitones": -2
+        },
+        {
+          "string": "I",
+          "note": "D5",
+          "equal_hz": 590.0,
+          "change_from_gdae_semitones": -2
+        }
+      ]
+    },
+    "ADAD": {
+      "415": [
+        {
+          "string": "IV",
+          "note": "A3",
+          "equal_hz": 207.5,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 276.98,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 415.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "D5",
+          "equal_hz": 553.96,
+          "change_from_gdae_semitones": -2
+        }
+      ],
+      "440": [
+        {
+          "string": "IV",
+          "note": "A3",
+          "equal_hz": 220.0,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 293.66,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 440.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "D5",
+          "equal_hz": 587.33,
+          "change_from_gdae_semitones": -2
+        }
+      ],
+      "441": [
+        {
+          "string": "IV",
+          "note": "A3",
+          "equal_hz": 220.5,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 294.33,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 441.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "D5",
+          "equal_hz": 588.66,
+          "change_from_gdae_semitones": -2
+        }
+      ],
+      "442": [
+        {
+          "string": "IV",
+          "note": "A3",
+          "equal_hz": 221.0,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 295.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 442.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "D5",
+          "equal_hz": 590.0,
+          "change_from_gdae_semitones": -2
+        }
+      ]
+    },
+    "ADAE": {
+      "415": [
+        {
+          "string": "IV",
+          "note": "A3",
+          "equal_hz": 207.5,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 276.98,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 415.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "E5",
+          "equal_hz": 621.8,
+          "change_from_gdae_semitones": 0
+        }
+      ],
+      "440": [
+        {
+          "string": "IV",
+          "note": "A3",
+          "equal_hz": 220.0,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 293.66,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 440.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "E5",
+          "equal_hz": 659.26,
+          "change_from_gdae_semitones": 0
+        }
+      ],
+      "441": [
+        {
+          "string": "IV",
+          "note": "A3",
+          "equal_hz": 220.5,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 294.33,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 441.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "E5",
+          "equal_hz": 660.75,
+          "change_from_gdae_semitones": 0
+        }
+      ],
+      "442": [
+        {
+          "string": "IV",
+          "note": "A3",
+          "equal_hz": 221.0,
+          "change_from_gdae_semitones": 2
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 295.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 442.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "E5",
+          "equal_hz": 662.25,
+          "change_from_gdae_semitones": 0
+        }
+      ]
+    },
+    "GDAD": {
+      "415": [
+        {
+          "string": "IV",
+          "note": "G3",
+          "equal_hz": 184.86,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 276.98,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 415.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "D5",
+          "equal_hz": 553.96,
+          "change_from_gdae_semitones": -2
+        }
+      ],
+      "440": [
+        {
+          "string": "IV",
+          "note": "G3",
+          "equal_hz": 196.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 293.66,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 440.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "D5",
+          "equal_hz": 587.33,
+          "change_from_gdae_semitones": -2
+        }
+      ],
+      "441": [
+        {
+          "string": "IV",
+          "note": "G3",
+          "equal_hz": 196.44,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 294.33,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 441.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "D5",
+          "equal_hz": 588.66,
+          "change_from_gdae_semitones": -2
+        }
+      ],
+      "442": [
+        {
+          "string": "IV",
+          "note": "G3",
+          "equal_hz": 196.89,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "III",
+          "note": "D4",
+          "equal_hz": 295.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "II",
+          "note": "A4",
+          "equal_hz": 442.0,
+          "change_from_gdae_semitones": 0
+        },
+        {
+          "string": "I",
+          "note": "D5",
+          "equal_hz": 590.0,
+          "change_from_gdae_semitones": -2
+        }
+      ]
+    }
+  }
+}

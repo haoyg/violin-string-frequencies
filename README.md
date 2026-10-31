@@ -2,6 +2,8 @@
 
 Exact frequencies for the four violin strings (G3, D4, A4, E5) at the four reference pitches people actually use: A=415 (baroque), 440 (ISO standard), 441 and 442 Hz (common in European orchestras). It also covers fiddle cross tunings and cent deviations. All values are computed by a script, not typed by hand, and you can get them as JSON or CSV. If you just want to tune, the [free online violin tuner](https://violin-tuner.com/) uses the same numbers and supports all four reference pitches.
 
+[![check](https://github.com/haoyg/violin-string-frequencies/actions/workflows/check.yml/badge.svg)](https://github.com/haoyg/violin-string-frequencies/actions/workflows/check.yml)
+
 ## Standard tuning (G–D–A–E), equal temperament
 
 <!-- BEGIN standard -->
@@ -76,8 +78,10 @@ Values for A=415 and A=441 are in [`data/cross-tunings.csv`](data/cross-tunings.
 
 ### Using the JSON
 
+The URLs below use jsDelivr pinned to major version `@1`, so data fixes come through automatically and breaking changes don't. Pin an exact tag such as `@v1.0.0` if you never want the data to change.
+
 ```js
-const url = "https://raw.githubusercontent.com/haoyg/violin-string-frequencies/main/data/violin-frequencies.json";
+const url = "https://cdn.jsdelivr.net/gh/haoyg/violin-string-frequencies@1/data/violin-frequencies.json";
 const data = await (await fetch(url)).json();
 
 data.standard_gdae["442"].map(s => `${s.note}: ${s.equal_hz} Hz`);
@@ -89,7 +93,7 @@ data.cross_tunings.AEAE["440"].map(s => s.equal_hz);
 
 ```python
 import json, urllib.request
-url = "https://raw.githubusercontent.com/haoyg/violin-string-frequencies/main/data/violin-frequencies.json"
+url = "https://cdn.jsdelivr.net/gh/haoyg/violin-string-frequencies@1/data/violin-frequencies.json"
 data = json.load(urllib.request.urlopen(url))
 for s in data["standard_gdae"]["415"]:
     print(s["note"], s["equal_hz"], s["pure_fifths_hz"])
